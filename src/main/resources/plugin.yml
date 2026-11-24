@@ -1,0 +1,20 @@
+name: XRayAlert
+version: 1.0.0
+main: dev.xrayalert.XRayAlert
+api-version: '1.21'
+description: Alerts admins when players mine ores.
+commands:
+  xrayalert:
+    description: XRayAlert commands
+    usage: /<command> <reload|toggle>
+    aliases: [xra]
+permissions:
+  xrayalert.notify:
+    description: Receive X-ray alerts
+    default: op
+  xrayalert.admin:
+    description: Use /xrayalert reload
+    default: op
+  xrayalert.bypass:
+    description: Do not trigger X-ray alerts
+    default: false

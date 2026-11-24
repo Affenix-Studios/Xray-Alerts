@@ -1,0 +1,23 @@
+language: en
+
+mode: VEIN
+
+vein:
+  max-size: 64
+  tracking-seconds: 120
+
+notify:
+  console: true
+  show-location: true
+  clickable-teleport: true
+
+ignore:
+  creative: true
+  worlds: []
+
+ores:
+  - DIAMOND_ORE
+  - EMERALD_ORE
+  - ANCIENT_DEBRIS
+  - GOLD_ORE
+  - NETHER_GOLD_ORE
